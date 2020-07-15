@@ -1,14 +1,14 @@
 
 package com.virtusa.vshare.model;
 
-import javax.persistence.Entity;
 import javax.persistence.GenerationType;
 import javax.persistence.Table;
 import javax.persistence.Id;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Column;
 
-public class Login {
+@Table(name = "login_details")
+public class Login{
 	
 	//define fields
 	@Id

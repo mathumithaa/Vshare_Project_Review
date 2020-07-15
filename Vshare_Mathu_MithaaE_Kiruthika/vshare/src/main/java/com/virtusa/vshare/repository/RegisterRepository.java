@@ -1,7 +1,7 @@
-package com.virtusa.vshare.service;
+package com.virtusa.vshare.repository;
 
 import com.virtusa.vshare.model.Login;
 
-public interface RegisterService {
+public interface RegisterRepository {
 	Login registerUser(Login register);
 }
